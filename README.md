@@ -2,3 +2,5 @@
 
 .重复按键
 defaults write -g ApplePressAndHoldEnabled -bool false
+
+# mdfind就是Spotlight功能的终端界面
