@@ -8,3 +8,6 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 
 # 查看端口
 sudo lsof -i tcp
+
+# find
+find ./ -iname "*sources*.jar"
