@@ -11,3 +11,7 @@ sudo lsof -i tcp
 
 # find
 find ./ -iname "*sources*.jar"
+
+# ngrok内网穿透 
+https://www.ngrok.cc/
+./sunny clientid 0de25c03849a3b30
