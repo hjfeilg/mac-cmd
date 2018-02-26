@@ -4,11 +4,11 @@
 defaults write -g ApplePressAndHoldEnabled -bool false
 
 # mdfind就是Spotlight功能的终端界面
->>> cmd
+... shell
 report:aa hadoop$ mdfind -onlyin ./ "/accounts" |grep Controller.java
 /Users/hadoop/Desktop/wwww/aa/web-1.1.0-SNAPSHOT.jar.src/com/ygsoft/community/web/controller/AttendanceController.java
 /Users/hadoop/Desktop/wwww/aa/ygpay-1.1.0-SNAPSHOT.jar.src/com/ygsoft/ygpay/YGPayController.java
-<<<
+...
 
 # 查看端口
 sudo lsof -i tcp
